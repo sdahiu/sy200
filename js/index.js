@@ -34,10 +34,10 @@ var musicNameList=document.getElementsByClassName("musics-list")[0];
 //当前播放音乐序号
 var musicId = 0;
 var musicData = [
-  ["放下", "黄嘉雯"],
-  ["爱情讯息", "郭静"],
-  ["呼吸有害", "黄文蔚"],
-  ["孤雏", "欧阳耀莹"],
+  ["放下", "25216950111"],
+  ["爱情讯息", "25216950111"],
+  ["呼吸有害", "25216950111"],
+  ["孤雏", "25216950111"],
 ];
 // 初始化音乐
 var musicId = 0;
@@ -247,4 +247,5 @@ function createMusicList(){
 }
 
 //加载整个页面元素时触发的事件
+
 document.addEventListener('DOMContentLoaded',createMusicList);
